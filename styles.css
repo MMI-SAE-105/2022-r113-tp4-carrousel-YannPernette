@@ -6,6 +6,7 @@ max-width width width
 
 * {
     box-sizing: border-box;
+    border: 100% 100% 100% 0;
 }
 
 img {
@@ -55,4 +56,22 @@ img {
   
 .carrousel_btn-apres {
     right: 0;
+}
+
+/* en vrac :
+0 0 1rem display center flex gap 
+justify-content list-style margin none padding
+*/
+
+.caroussel_liste-liens {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+}
+
+.actif {
+    color: red;
 }
