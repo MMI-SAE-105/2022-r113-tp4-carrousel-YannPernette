@@ -1,0 +1,28 @@
+/* en vrac :
+100% 100% 100% 0 auto border-box box-sizing 
+display height flex flex none margin 
+max-width width width
+*/ 
+
+* {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.carrousel_parent-ecrans {
+    /* aligne horizontalement les enfants */
+    /* largeur du parent */
+}
+
+.carrousel_ecran {
+    /* largeur du parent pour chaque enfant */
+    /* permet de garder toute la largeur du parent */
+}
+
+.carrousel_ecran figure {
+    margin: 0;
+}
