@@ -1,8 +1,8 @@
 /* en vrac :
-100% 100% 100% 0 auto border-box box-sizing 
-display height flex flex none margin 
+100% 100% 100% 0 auto border-box box-sizing
+display height flex flex none margin
 max-width width width
-*/ 
+*/
 
 * {
     box-sizing: border-box;
@@ -22,7 +22,7 @@ img {
 }
 
 .carrousel_ecran {
-    /* largeur du parent pour chaque enfant */
+    width: 100%;
     flex: none;
     scroll-snap-align: start;
 }
